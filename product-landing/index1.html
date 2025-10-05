@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f2f6fc; }
+    header { background:#0077b6; color:white; padding:20px; text-align:center; }
+    header h1 { margin:0; }
+    .hero { text-align:center; padding:50px 20px; }
+    .hero img { max-width:300px; border-radius:10px; }
+    .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; padding:20px; max-width:1000px; margin:auto; }
+    .card { background:#0096c7; color:white; padding:20px; border-radius:8px; text-align:center; transition: transform 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+    footer { background:#0077b6; color:white; text-align:center; padding:20px; margin-top:30px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Awesome Product</h1>
+  </header>
+
+  <section class="hero">
+    <img src="https://via.placeholder.com/300x200" alt="Product Image">
+    <h2>Revolutionize Your Experience!</h2>
+    <p>Discover the features that make this product unique.</p>
+    <button>Learn More</button>
+  </section>
+
+  <section class="features">
+    <div class="card">Feature 1</div>
+    <div class="card">Feature 2</div>
+    <div class="card">Feature 3</div>
+    <div class="card">Feature 4</div>
+  </section>
+
+  <footer>
+    <p>Contact us at info@example.com</p>
+  </footer>
+</body>
+</html>
